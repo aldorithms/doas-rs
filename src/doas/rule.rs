@@ -4,13 +4,14 @@ use std::ptr;
 use std::slice;
 
 pub struct Rule {
-    pub action: c_int,
-    pub options: c_int,
+    pub cmdargs: Option<Vec<String>>,
+    pub envlist: Option<Vec<String>>,
     pub ident: Option<String>,
     pub target: Option<String>,
     pub cmd: Option<String>,
-    pub cmdargs: Option<Vec<String>>,
-    pub envlist: Option<Vec<String>>,
+    pub action: c_int,
+    pub options: c_int,
+
 }
 
 impl Rule {
