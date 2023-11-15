@@ -1,0 +1,3 @@
+[submodule "doas"]
+	path = doas
+	url = https://github.com/slicer69/doas.git
