@@ -1,2 +1,2 @@
 # doas-rs
-A Rust rewrite of OpenBSD's doas command.
+A Rust port of OpenBSD's doas command.
