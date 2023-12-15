@@ -1,0 +1,11 @@
+{
+  "binaries": [
+    {
+      "name": "doas-rs",
+      "src_path": "/home/aldorithms/doas-rs/src/main.rs"
+    }
+  ],
+  "examples": [],
+  "integration_tests": [],
+  "unit_tests": []
+}
